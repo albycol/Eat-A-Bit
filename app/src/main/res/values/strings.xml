@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eat a Bit</string>
+    <string name="text_main">login page</string>
+    <string name="insert_mail">insert email</string>
+    <string name="insert_pass">insert password</string>
+    <string name="login_button">login</string>
+    <string name="sign_up_button">sign up</string>
+    <string name="new_user_button">new user? register here</string>
+    <string name="text_main_register">register page</string>
+    <string name="reinsert_pass">insert phone number</string>
+    <string name="confirm_reg">sign in</string>
+    <string name="title_activity_main">Main</string>
+    <string name="welcome_text">Welcome, </string>
+    <string name="dar_mode">dark mode</string>
+
+</resources>
