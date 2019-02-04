@@ -9,46 +9,52 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="24dp"
-        android:fontFamily="@font/kaibon"
-        android:text="@string/text_main_register"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/text_main"
         android:textAlignment="center"
-        android:textColor="#2266DE"
-        android:textSize="60sp" />
+        android:textColor="#033051"
+        android:textSize="60sp"
+
+        />
 
     <EditText
+        android:id="@+id/mail1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="#3785EA"
+        android:backgroundTint="#033051"
+        android:fontFamily="@font/comfortaa"
         android:hint="@string/insert_mail"
         android:inputType="textEmailAddress"
-        android:textColorHint="#3785EA"
-        android:textStyle="italic"
-        android:id="@+id/mail1"/>
+        android:textColorHint="#033051"
+        android:textStyle="italic" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="#3785EA"
+        android:backgroundTint="#033051"
+        android:fontFamily="@font/comfortaa"
         android:hint="@string/insert_pass"
         android:inputType="textPassword"
-        android:textColorHint="#3785EA"
-        android:textStyle="italic"
-        android:id="@+id/password"/>
+        android:textColorHint="#033051"
+        android:textStyle="italic" />
 
     <EditText
+        android:id="@+id/phonenumb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="#3785EA"
+        android:backgroundTint="#033051"
+        android:fontFamily="@font/comfortaa"
         android:hint="@string/reinsert_pass"
         android:inputType="phone"
-        android:textColorHint="#3785EA"
-        android:textStyle="italic"
-        android:id="@+id/phonenumb"
-        />
+        android:textColorHint="#033051"
+        android:textStyle="italic" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,18 +63,18 @@
 
 
         <Button
+            android:id="@+id/signin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:background="@drawable/roundedbutton"
-            android:backgroundTint="#FCE400"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="@string/confirm_reg"
-            android:textColor="#2266DE"
-            android:textSize="18sp"
-            android:textStyle="bold"
+            android:backgroundTint="#fad612"
             android:enabled="false"
-            android:id="@+id/signin"/>
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/confirm_reg"
+            android:textColor="#033051"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </LinearLayout>

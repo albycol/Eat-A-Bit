@@ -1,4 +1,4 @@
-package col.alb.eatabit;
+package col.alb.eatabit.activities;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +14,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Main extends AppCompatActivity implements View.OnClickListener {
+import col.alb.eatabit.R;
+
+public class Login extends AppCompatActivity implements View.OnClickListener {
 
     Button loginBtn;
     Button registerBtn;
@@ -27,6 +29,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
     LinearLayout linearL;
 
     TextView textdarkm;
+
     final static int len_pass = 6;
 
     @Override
@@ -41,9 +44,9 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
         passwordEt = findViewById(R.id.password_et);
         loginBtn = findViewById(R.id.loginBtn);
         registerBtn = findViewById(R.id.register);
-        switchDark=findViewById(R.id.switchb);
+        //switchDark=findViewById(R.id.switchb);
         linearL=findViewById(R.id.linearl);
-        textdarkm=findViewById(R.id.text_dark);
+        //textdarkm=findViewById(R.id.text_dark);
 
 
 
@@ -55,8 +58,9 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
 
         loginBtn.setOnClickListener(this);
         registerBtn.setOnClickListener(this);
-        textdarkm.setOnClickListener(this);
-        switchDark.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+        //textdarkm.setOnClickListener(this);
+       /* switchDark.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(isChecked){
@@ -72,7 +76,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
                     passwordEt.setTextColor(getResources().getColor(R.color.dark));
                 }
             }
-        });
+        });*/
 
 
         Log.i("Main Activity", "Activity created");
@@ -98,7 +102,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent);*/
             }
         }else if(view.getId()==R.id.register){
-            Intent intent = new Intent(this,Register.class);
+            Intent intent = new Intent(this, Register.class);
             startActivity(intent);
         }
     }
