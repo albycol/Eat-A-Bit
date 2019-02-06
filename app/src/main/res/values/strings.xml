@@ -14,5 +14,6 @@
     <string name="dar_mode">dark mode</string>
     <string name="welcome_log">welcome! please do login</string>
     <string name="register_log">please insert all informations</string>
+    <string name="view">menu</string>
 
 </resources>

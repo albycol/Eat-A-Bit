@@ -2,8 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/type_list"
+        android:icon="@drawable/ic_grid_on_black_24dp"
+        android:title=""
+        app:showAsAction="always"
+        />
+    <item
         android:id="@+id/primo"
         android:icon="@drawable/ic_account_circle_black_24dp"
         android:title=""
         app:showAsAction="always"/>
+
+
 </menu>

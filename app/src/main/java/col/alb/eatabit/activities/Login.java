@@ -19,7 +19,7 @@ import col.alb.eatabit.R;
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
     Button loginBtn;
-    Button registerBtn;
+    TextView registerBtn;
 
     EditText emailEt;
     EditText passwordEt;

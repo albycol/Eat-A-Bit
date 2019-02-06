@@ -2,8 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    android:orientation="vertical">
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
 
     <TextView
         android:layout_width="match_parent"
@@ -15,7 +16,7 @@
         android:fontFamily="@font/comfortaa"
         android:text="@string/text_main"
         android:textAlignment="center"
-        android:textColor="#033051"
+        android:textColor="#fad612"
         android:textSize="60sp"
 
         />
@@ -24,7 +25,9 @@
         android:id="@+id/mail1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         android:backgroundTint="#033051"
         android:fontFamily="@font/comfortaa"
         android:hint="@string/insert_mail"
@@ -36,7 +39,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="32dp"
         android:backgroundTint="#033051"
         android:fontFamily="@font/comfortaa"
         android:hint="@string/insert_pass"
@@ -48,7 +51,9 @@
         android:id="@+id/phonenumb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#033051"
         android:fontFamily="@font/comfortaa"
         android:hint="@string/reinsert_pass"
@@ -65,8 +70,11 @@
         <Button
             android:id="@+id/signin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/roundedbutton"
             android:backgroundTint="#fad612"
             android:enabled="false"
