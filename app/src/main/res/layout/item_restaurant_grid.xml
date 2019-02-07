@@ -57,14 +57,28 @@
                 android:textColor="#033051"/>
 
             <TextView
-                android:layout_width="match_parent"
+                android:id="@+id/ordermin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/signikaregular"
+                android:text="@string/textordermin"
+                android:textSize="14sp"
+                tools:text="prova" />
+
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="14sp"
+                android:layout_toRightOf="@id/ordermin"
                 android:id="@+id/minorder"
+                android:layout_gravity="center"
                 tools:text="prova"
                 android:fontFamily="@font/signikaregular"
-                android:textColor="#033051"/>
+                android:textColor="#033051"
+                />
 
         </LinearLayout>
 

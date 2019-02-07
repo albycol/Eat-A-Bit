@@ -58,12 +58,26 @@
             tools:text="prova" />
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="prova"
+            android:layout_toRightOf="@id/avatar_restaurant"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="56dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/signikaregular"
+            android:id="@+id/ordermin"
+            android:text="@string/textordermin"
+            />
+
+        <TextView
             android:id="@+id/minorder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="56dp"
             android:layout_toRightOf="@id/avatar_restaurant"
+            android:layout_toEndOf="@+id/ordermin"
             android:fontFamily="@font/signikaregular"
             android:textColor="#033051"
             android:textSize="14sp"

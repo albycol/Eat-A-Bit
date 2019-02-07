@@ -35,13 +35,15 @@ public class Main1 extends AppCompatActivity {
         restaurantRV.setAdapter(adapter);
     }
 
+
     private ArrayList<Restaurant> getData() {
         arrayList=new ArrayList<>();
-        arrayList.add(new Restaurant(R.drawable.panino, "McDonald's", "hflkhvrkò", 10.5));
-        arrayList.add(new Restaurant(R.drawable.panino4, "Burger King", "gyguighui", 13.50));
-        arrayList.add(new Restaurant(R.drawable.panino3, "KFC", "hflkhvrkò", 10.5));
-        arrayList.add(new Restaurant(R.drawable.panino2, "Subway's", "kdnfdnfd", 18));
-        arrayList.add(new Restaurant(R.drawable.pizza, "Wendy's", "djfndfjnd", 16));
+        arrayList.add(new Restaurant(R.drawable.panino, "McDonald's", "Via Appia Nuova", 10.5));
+        arrayList.add(new Restaurant(R.drawable.panino4, "Burger King", "Via Condotti", 13.50));
+        arrayList.add(new Restaurant(R.drawable.panino3, "KFC", "Via Nazionale", 10.5));
+        arrayList.add(new Restaurant(R.drawable.panino2, "Subway's", "Via Sant'Andrea", 18));
+        arrayList.add(new Restaurant(R.drawable.pizza, "Wendy's", "Corso Buenos Aires", 16));
+
         return arrayList;
 
 
@@ -68,5 +70,6 @@ public class Main1 extends AppCompatActivity {
         mymenu.inflate(R.menu.menu_actionbar, menu);
         return true;
     }
+
 }
 

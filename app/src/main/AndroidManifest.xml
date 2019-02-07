@@ -20,6 +20,7 @@
         </activity>
 
         <activity android:name=".activities.Login"></activity>
+        <activity android:name=".activities.Menu"></activity>
 
     </application>
 </manifest>

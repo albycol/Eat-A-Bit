@@ -15,5 +15,6 @@
     <string name="welcome_log">welcome! please do login</string>
     <string name="register_log">please insert all informations</string>
     <string name="view">menu</string>
+    <string name="textordermin">min order:</string>
 
 </resources>
