@@ -36,9 +36,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_toRightOf="@id/avatar_restaurant"
-            android:fontFamily="@font/comfortaa"
+            android:fontFamily="@font/signikaregular"
             android:textColor="#033051"
-            android:textSize="16sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             tools:text="prova"
 
@@ -50,11 +50,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="30dp"
             android:layout_toRightOf="@id/avatar_restaurant"
-            android:fontFamily="@font/comfortaa"
+            android:fontFamily="@font/signikaregular"
             android:textColor="#033051"
-            android:textSize="16sp"
+            android:textSize="18sp"
             tools:text="prova" />
 
         <TextView
@@ -62,11 +62,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="56dp"
             android:layout_toRightOf="@id/avatar_restaurant"
-            android:fontFamily="@font/comfortaa"
+            android:fontFamily="@font/signikaregular"
             android:textColor="#033051"
-            android:textSize="16sp" />
+            android:textSize="14sp"
+            tools:text="prova"
+
+            />
     </RelativeLayout>
 
 </android.support.v7.widget.CardView>
